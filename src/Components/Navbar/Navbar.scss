@@ -1,0 +1,31 @@
+.Navbar{
+    width: 96.8vw;
+    margin: 0;
+    padding: 0;
+    height: 130px;
+    display:flex;
+    justify-content: space-evenly;
+    align-items: center;
+
+
+    .NavIcons{
+        width: 10%;
+        height: 100%;
+        border: 1px solid black;
+        border-radius:50%;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        background-color: rgba(0, 0, 0, 0.8);
+        cursor: pointer;
+
+
+        .Icons{
+            text-align: center;
+            font-size: 5rem;
+            margin: auto;
+            padding-top: 1.5rem;
+            color: rgba(255, 255, 255, 0.8);
+        }
+    }
+}
